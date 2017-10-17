@@ -420,7 +420,7 @@ The following parameter signatures are supported:
   this.dispatch('ADD_TODO')
   // resulting dispatched action:
   {
-      type: 'ADD_TODO'
+    type: 'ADD_TODO'
   }
   ```
 
@@ -429,8 +429,8 @@ The following parameter signatures are supported:
   this.dispatch('ADD_TODO', { text: 'Milk' })
   // resulting dispatched action:
   {
-      type: 'ADD_TODO',
-      payload: { text: 'Milk' }
+    type: 'ADD_TODO',
+    payload: { text: 'Milk' }
   }
   ```
   **Example:** `dispatch(type, payload, meta)`
@@ -439,9 +439,9 @@ The following parameter signatures are supported:
   this.dispatch('ADD_TODO', { text: 'Milk' }, { tags: ['shopping', 'groceries'] })
   // resulting dispatched action:
   {
-      type: 'ADD_TODO',
-      payload: { foo: 'bar' },
-      meta: { tags: ['shopping', 'groceries'] } 
+    type: 'ADD_TODO',
+    payload: { foo: 'bar' },
+    meta: { tags: ['shopping', 'groceries'] } 
   }
   ```
   
@@ -451,9 +451,9 @@ The following parameter signatures are supported:
   this.dispatch('TOGGLE_TODO', new Error('Could not find the specified Todo item!'))
   // resulting dispatched action:
   {
-      type: 'TOGGLE_TODO',
-      payload: /* Error: 'Could not find the specified Todo item!' */,
-      error: true
+    type: 'TOGGLE_TODO',
+    payload: /* Error: 'Could not find the specified Todo item!' */,
+    error: true
   }
   ```
 
