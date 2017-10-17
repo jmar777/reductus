@@ -12,7 +12,7 @@
     * [Initial Setup](#initial-setup)
 * **[API](#api)**
     * *Store Initialization:*
-        * [`reductusEnhancer`](#reductusEnhancer)
+        * [`reductusEnhancer`](#reductusenhancer)
         * [`combineReducers([reducers])`](#combinereducersreducers)
     * *Service Decorators:*
         * [`@service(slice, initialState)`](#serviceslice-initialstate)
@@ -23,7 +23,7 @@
         * [`onReady()`](#onready)
         * [`state()`](#state)
         * [`slice(state)`](#slicestate)
-        * [`dispatch(actionOrType [, payload [, meta]])`](#dispatchactionortype-payload-meta)
+        * [`dispatch(actionOrType [, payload [, meta]])`](#dispatchactionortype--payload--meta)
         * [`Custom Service Methods`](#custom-service-methods)
 * **[Contributing](#contributing)**
 
@@ -131,7 +131,7 @@ $ npm install reductus --save
 
 ### Configuring webpack
 
-Using the decorator syntax will require the [`babel-plugin-transform-decorators-legacy`](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) transform. To see an example of configuring `babel-loader` to use the decorator transform, please view the `webpack.config.js` file in the accompanying todos example.
+Using the decorator syntax will require the [`babel-plugin-transform-decorators-legacy`](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) transform. To see an example of configuring [`babel-loader`](https://github.com/babel/babel-loader) to use the decorator transform, please view the [`webpack.config.js`](https://github.com/jmar777/reductus/blob/master/examples/todos/webpack.config.js) file in the accompanying [todos example](https://github.com/jmar777/reductus/tree/master/examples/todos).
 
 ### Initial Setup
 
