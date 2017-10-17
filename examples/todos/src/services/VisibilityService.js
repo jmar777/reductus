@@ -1,5 +1,4 @@
 import { createServiceFactory, service, reducer } from '../../../../';
-import TodoService from './TodoService';
 
 @service('visibility', 'SHOW_ALL')
 class VisibilityService {
